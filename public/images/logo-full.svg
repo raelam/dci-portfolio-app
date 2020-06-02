@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="2035px" height="864px" viewBox="0 0 2035 864" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>logo-full</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-187.000000, -206.000000)">
+            <g id="logo-full" transform="translate(134.000000, 188.000000)">
+                <g id="logo" stroke="#233941" stroke-opacity="0.86" stroke-width="10">
+                    <path d="M287.011532,97.7556528 C386.836249,116.618607 436.748607,168.882021 436.748607,254.545896 C436.748607,379.754998 353.921896,442.359548 188.268474,442.359548 L519.033569,865.943699" id="Line" stroke-linecap="round"></path>
+                    <line x1="180.297151" y1="174.086413" x2="180.297151" y2="753.1591" id="Line" stroke-linecap="round"></line>
+                    <line x1="104.19966" y1="275.052933" x2="104.19966" y2="650.790076" id="Line" stroke-linecap="round"></line>
+                    <line x1="142.036426" y1="215.660862" x2="142.036426" y2="709.889434" id="Line" stroke-linecap="round"></line>
+                    <path d="M601.087552,860.792555 C747.560817,798.859649 850.390084,653.843915 850.456193,484.864546 C850.544234,259.633138 668.029499,77.1184033 442.798091,77.2064446 C255.026642,77.2799015 96.8451559,204.243893 49.3714286,376.980655" id="Oval" transform="translate(449.913811, 468.999500) rotate(-135.000000) translate(-449.913811, -468.999500) "></path>
+                    <polyline id="Line" stroke-linecap="square" points="475.523449 23.7163665 475.523449 797.812091 843.146186 797.677742"></polyline>
+                    <line x1="513.040436" y1="23.7163665" x2="513.040436" y2="796.540311" id="Line" stroke-linecap="square"></line>
+                    <line x1="550.557423" y1="23.7163665" x2="550.557423" y2="796.540311" id="Line" stroke-linecap="square"></line>
+                </g>
+                <text id=".design" font-family="Montserrat-Light, Montserrat" font-size="350" font-weight="300" fill="#233941" fill-opacity="0.86">
+                    <tspan x="881" y="812">.design</tspan>
+                </text>
+            </g>
+        </g>
+    </g>
+</svg>
