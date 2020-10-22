@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
+import Button from 'react-bootstrap/Button';
 
 export default class About extends Component {
   render() {
@@ -73,15 +72,15 @@ export default class About extends Component {
             opportunities to further conversation around brand marketing and
             product positioning.
           </p>
-          <p>
-            <a
+          <p style={{ 'text-align': 'center' }}>
+            <Button
               href="https://www.linkedin.com/in/rachel-lammer"
+              variant="outline-primary"
               target="_blank"
               rel="noopener noreferrer"
             >
-              View my resume and contact me
-              <FontAwesomeIcon icon={faLinkedin} />
-            </a>
+              View my resume and contact me on LinkedIn
+            </Button>
           </p>
         </Col>
         <Col sm={4}>

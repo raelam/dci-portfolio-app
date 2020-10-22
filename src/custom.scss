@@ -84,3 +84,19 @@ h6 {
 .aboutImgDiv {
   text-align: center;
 }
+
+.btn-outline-primary {
+  color: var(--secondary);
+  border-color: var(--secondary);
+}
+
+.btn-outline-primary:hover {
+  color: #fff;
+  background-color: var(--secondary);
+  border-color: var(--secondary);
+}
+
+.btn-outline-primary:focus,
+.btn-outline-primary.focus {
+  box-shadow: 0 0 0 0.2rem var(--secondary);
+}
