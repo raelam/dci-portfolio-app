@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import classnames from 'classnames';
 import Row from 'react-bootstrap/Row';
 import Image from 'react-bootstrap/Image';
 
@@ -10,7 +9,7 @@ export default class Splashrow extends Component {
         <Image
           id="splash-img"
           src="images/logo-full.svg"
-          className="mx-auto p-4 visible"
+          className="mx-auto p-2 visible"
           alt="RCL.design logo"
         />
       </Row>

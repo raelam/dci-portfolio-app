@@ -1,52 +1,45 @@
 import React, { Component } from 'react';
-import classnames from 'classnames';
 
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import Row from 'react-bootstrap/Row';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
+// import NavDropdown from 'react-bootstrap/NavDropdown';
 
 export default class Navrow extends Component {
   constructor(props) {
     super(props);
-    this.state = {
-      fixed: false,
-    };
+
+    // This binding is necessary to make `this` work in the callback
+    this.handleClick = this.handleClick.bind(this);
   }
 
-  componentDidMount() {
-    window.addEventListener('scroll', this.handleScroll);
+  handleClick(e) {
+    this.props.onContentChange(e.target.attributes['data-rb-event-key'].value);
   }
-
-  componentWillUnmount() {
-    window.removeEventListener('scroll', this.handleScroll);
-  }
-
-  handleScroll = () => {
-    const currentScrollPos = window.pageYOffset;
-    const fixed = currentScrollPos > 150;
-
-    this.setState({
-      prevScrollpos: currentScrollPos,
-      fixed,
-    });
-  };
 
   render() {
     return (
       <Row>
-        <Navbar
-          expand="lg"
-          variant="dark"
-          className={classnames({
-            'navbar--fixed': this.state.fixed,
-          })}
-        >
-          <Nav className="mx-auto" defaultActiveKey="/">
-            <Nav.Link href="#services" eventKey="services">
-              Services
+        <Navbar className="customNav" expand="sm" variant="dark">
+          <Nav
+            defaultActiveKey="about"
+            className="customNav justify-content-center"
+          >
+            <Nav.Link eventKey="about" onClick={this.handleClick}>
+              About
             </Nav.Link>
-            <Nav.Link href="#portfolio" eventKey="portfolio">
+            <Nav.Link eventKey="portfolio" onClick={this.handleClick}>
               Portfolio
+            </Nav.Link>
+            <Nav.Link
+              eventKey="linkedin"
+              href="https://www.linkedin.com/in/rachel-lammer"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FontAwesomeIcon icon={faLinkedin} />
             </Nav.Link>
           </Nav>
         </Navbar>

@@ -6,103 +6,68 @@ import Card from 'react-bootstrap/Card';
 import CardColumns from 'react-bootstrap/CardColumns';
 
 export default class Portfolio extends Component {
+  constructor(props) {
+    super(props);
+
+    // This binding is necessary to make `this` work in the callback
+    this.handleClick = this.handleClick.bind(this);
+  }
+
+  handleClick(e) {
+    this.props.onContentChange(e.target.attributes['data-card'].value);
+  }
+
   render() {
     return (
       <Row className="pt-5" id="portfolio">
         <Col>
           <CardColumns>
             <Card>
-              <Card.Img variant="top" src="holder.js/100px160" />
+              <Card.Img
+                variant="top"
+                src="images/unsplash/daria-nepriakhina-zoCDWPuiRuA-unsplash.jpg"
+              />
               <Card.Body>
-                <Card.Title>Card title that wraps to a new line</Card.Title>
-                <Card.Text>
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-            <Card className="p-3">
-              <blockquote className="blockquote mb-0 card-body">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer posuere erat a ante.
-                </p>
-                <footer className="blockquote-footer">
-                  <small className="text-muted">
-                    Someone famous in{' '}
-                    <cite title="Source Title">Source Title</cite>
-                  </small>
-                </footer>
-              </blockquote>
-            </Card>
-            <Card>
-              <Card.Img variant="top" src="holder.js/100px160" />
-              <Card.Body>
-                <Card.Title>Card title</Card.Title>
-                <Card.Text>
-                  This card has supporting text below as a natural lead-in to
-                  additional content.{' '}
-                </Card.Text>
-              </Card.Body>
-              <Card.Footer>
-                <small className="text-muted">Last updated 3 mins ago</small>
-              </Card.Footer>
-            </Card>
-            <Card bg="primary" text="white" className="text-center p-3">
-              <blockquote className="blockquote mb-0 card-body">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer posuere erat a ante.
-                </p>
-                <footer className="blockquote-footer">
-                  <small className="text-muted">
-                    Someone famous in{' '}
-                    <cite title="Source Title">Source Title</cite>
-                  </small>
-                </footer>
-              </blockquote>
-            </Card>
-            <Card className="text-center">
-              <Card.Body>
-                <Card.Title>Card title</Card.Title>
-                <Card.Text>
-                  This card has supporting text below as a natural lead-in to
-                  additional content.{' '}
-                </Card.Text>
-                <Card.Text>
-                  <small className="text-muted">Last updated 3 mins ago</small>
-                </Card.Text>
+                <Card.Title>Marketing Strategy</Card.Title>
+                <Card.Link
+                  href="#"
+                  data-card="marketingStrategy"
+                  onClick={this.handleClick}
+                >
+                  Learn More
+                </Card.Link>
               </Card.Body>
             </Card>
             <Card>
-              <Card.Img src="holder.js/100px160" />
-            </Card>
-            <Card className="text-right">
-              <blockquote className="blockquote mb-0 card-body">
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                  Integer posuere erat a ante.
-                </p>
-                <footer className="blockquote-footer">
-                  <small className="text-muted">
-                    Someone famous in{' '}
-                    <cite title="Source Title">Source Title</cite>
-                  </small>
-                </footer>
-              </blockquote>
+              <Card.Img
+                variant="top"
+                src="images/unsplash/stephen-phillips-hostreviews-co-uk-shr_Xn8S8QU-unsplash.jpg"
+              />
+              <Card.Body>
+                <Card.Title>Digital Analytics</Card.Title>
+                <Card.Link
+                  href="#"
+                  data-card="analytics"
+                  onClick={this.handleClick}
+                >
+                  Learn More
+                </Card.Link>
+              </Card.Body>
             </Card>
             <Card>
+              <Card.Img
+                variant="top"
+                src="images/unsplash/halacious-tZc3vjPCk-Q-unsplash.jpg"
+              />
               <Card.Body>
-                <Card.Title>Card title</Card.Title>
-                <Card.Text>
-                  This is a wider card with supporting text below as a natural
-                  lead-in to additional content. This card has even longer
-                  content than the first to show that equal height action.
-                </Card.Text>
-                <Card.Text>
-                  <small className="text-muted">Last updated 3 mins ago</small>
-                </Card.Text>
+                <Card.Title>Web Design/Development</Card.Title>
+                <Card.Link
+                  href="#"
+                  data-card="webDev"
+                  onClick={this.handleClick}
+                >
+                  Learn More
+                </Card.Link>
               </Card.Body>
             </Card>
           </CardColumns>

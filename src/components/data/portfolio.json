@@ -1,0 +1,153 @@
+{
+  "marketingStrategy": {
+    "title": "Marketing Strategy",
+    "detail": "Bringing teams together for a shared vision.",
+    "projects": {
+      "names": [
+        "Sola-Lite | Solar Tex",
+        "SAPA Foster Awareness Campaign",
+        "Clown Dog Bikes Digital Strategy",
+        "Don't Kid with your Kidneys",
+        "Movie Kickstarter Campaign",
+        "Let's Go by Diana Paez SEO Strategy",
+        "Let's Go by Diana Paez CPC Strategy",
+        "Marketing Automation for Helen Thompson Media"
+      ],
+      "images": [
+        "images/projects/thumbnails/sl-st.png",
+        "images/projects/thumbnails/SAPAlogo.png",
+        "images/projects/thumbnails/clowndog.png",
+        "images/projects/thumbnails/DKWYK.png",
+        "images/projects/thumbnails/socialmedia.png",
+        "images/projects/thumbnails/DP_LOGO.png",
+        "images/projects/thumbnails/DP_LOGO.png",
+        "images/projects/thumbnails/ma.png"
+      ],
+      "detail": [
+        "This content marketing campaign demonstrates my ability to collect requirements and organize a backlog.",
+        "Creating a video marketing campaign can be challenging due to the creative aspects, as such it was particularly important to own the backlogs.",
+        "This digital strategy was developed to address business goals set prior to the lockdowns related to SARS-COV-2.",
+        "Acting as Scrum Master, this project was particularly challenging because of our inexperience as a team.",
+        "Working with a fellow DCI apprentice on this social media campaign was very enjoyable.",
+        "SEO strategy for a small clothing brand featuring Colombian designed and crafted apparel.",
+        "Google Ads strategy for a small clothing brand featuring Colombian designed and crafted apparel.",
+        "Automated email marketing strategy for Helen Thompson Media."
+      ],
+      "location": [
+        "images/projects/sl-st.pdf",
+        "images/projects/SAPA.pdf",
+        "images/projects/clowndog.pdf",
+        "images/projects/DKWYK.pdf",
+        "images/projects/socialmedia.pdf",
+        "images/projects/seo.pdf",
+        "images/projects/cpc.png",
+        "images/projects/ma.png"
+      ]
+    },
+    "certificates": {
+      "names": [
+        "Inbound Marketing",
+        "Hubspot Marketing Software",
+        "Email Marketing",
+        "Professional Scrum Master I"
+      ],
+      "images": [
+        "images/certs/thumbnails/inbound.png",
+        "images/certs/thumbnails/hubspot-marketing.png",
+        "images/certs/thumbnails/hubspot-email.png",
+        "images/certs/thumbnails/psmI.svg"
+      ],
+      "detail": [
+        "Inbound Marketing certificate from HubSpot",
+        "Hubspot Marketing Software Certificate",
+        "Email Marketing Certificate from Hubspot",
+        "PSM-I certification provided by Scrum.org"
+      ],
+      "location": [
+        "images/certs/inbound-cert.png",
+        "images/certs/hubspot-marketing-cert.png",
+        "images/certs/hubspot-email.png",
+        "images/certs/PSM_I.pdf"
+      ]
+    }
+  },
+  "analytics": {
+    "title": "Digital Analytics",
+    "detail": "Data-driven decision making starts with the data collection and analysis.",
+    "projects": {
+      "names": ["SAPA Wellness Clinic Program Review"],
+      "images": ["images/projects/thumbnails/SAPAlogo.png"],
+      "detail": [
+        "An analysis of the throughput data for the walk-in clinic coordinated by volunteers with San Antonio Pets Alive!"
+      ],
+      "location": ["images/projects/excel.pdf"]
+    },
+    "certificates": {
+      "names": [
+        "Google Analytics Individual Qualification",
+        "Google Tag Manager"
+      ],
+      "images": [
+        "images/certs/thumbnails/GAIQ.png",
+        "images/certs/thumbnails/GTM_ribbon.png"
+      ],
+      "detail": ["GAIQ", "GTM cert"],
+      "location": [
+        "images/certs/GAIQ.png",
+        "images/certs/GTM_Fundamentals_Course_Certificate.pdf"
+      ]
+    }
+  },
+  "webDev": {
+    "title": "Web Design and Development",
+    "detail": "Creating unique designs and seeing them through to implementation.",
+    "projects": {
+      "names": [
+        "Quest Learning & Assessment",
+        "Interactive Course Content",
+        "St. Louis Counseling Collective",
+        "Policy Watch Texas",
+        "Capital Area Progressive Democrats"
+      ],
+      "images": [
+        "images/projects/thumbnails/quest.png",
+        "images/projects/thumbnails/demos.png",
+        "images/projects/thumbnails/slcc.png",
+        "images/projects/thumbnails/pwt.png",
+        "images/projects/thumbnails/capd.svg"
+      ],
+      "detail": [
+        "I managed the migration of cns.quest.utexas.edu from Joomla to Wordpress and redesigned the site for improved UX.",
+        "Course materials with interactive elements to help students visualize complex concepts.",
+        "The St. Louis Counseling Collective came to me for help setting up a site for clients to find information about the organization.",
+        "Policy Watch Texas was a side project I did with a friend in Austin during the 2016 Texas Legislative Session.",
+        "The Capital Area Progressive Democrats were in need of a Wordpress developer to maintain their website and update the appearance."
+      ],
+      "location": [
+        "https://getquest.cns.utexas.edu/",
+        "https://codepen.io/collection/XPpbgB",
+        "http://www.stlcounselingcollective.org/",
+        "https://raelam.github.io/pwt/",
+        "http://capdaustintx.org/home/"
+      ]
+    },
+    "certificates": {
+      "names": [
+        "Responsive Web Design",
+        "JavaScript Algorithms and Data Structures"
+      ],
+      "images": [
+        "images/certs/thumbnails/FCC.svg",
+        "images/certs/thumbnails/FCC.svg"
+      ],
+      "detail": [
+        "300 hours of web design fundamentals",
+        "300 hours of JS study and practice"
+      ],
+      "location": [
+        "images/certs/FCC_Web_Design_certificate.png",
+        "images/certs/FCC_JS_certificate.pdf"
+      ]
+    }
+  }
+}
