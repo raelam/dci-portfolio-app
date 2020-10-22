@@ -71,6 +71,16 @@ export default class About extends Component {
             opportunities to further conversation around brand marketing and
             product positioning.
           </p>
+          <p>
+            <a
+              href="https://www.linkedin.com/in/rachel-lammer"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              View my resume and contact me
+              <FontAwesomeIcon icon={faLinkedin} />
+            </a>
+          </p>
         </Col>
         <Col sm={4}>
           <div className="aboutImgDiv">
