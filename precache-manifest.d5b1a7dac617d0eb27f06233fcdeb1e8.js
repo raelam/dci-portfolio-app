@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "71c73755d2126fe67bd85cbacd33be37",
+    "revision": "bebf2ad039b444c60777e94286347f9b",
     "url": "/dci-portfolio-app/index.html"
   },
   {
-    "revision": "c00bd81bae4584349087",
+    "revision": "133dc58e40349a51dda5",
     "url": "/dci-portfolio-app/static/css/main.8bd558a4.chunk.css"
   },
   {
-    "revision": "6cb28e38bfbb87c333a8",
-    "url": "/dci-portfolio-app/static/js/2.a6629087.chunk.js"
+    "revision": "2729ef3baa58d9c902bb",
+    "url": "/dci-portfolio-app/static/js/2.bc94c4e5.chunk.js"
   },
   {
     "revision": "a7aec927f1e863a53de22e58e5329447",
-    "url": "/dci-portfolio-app/static/js/2.a6629087.chunk.js.LICENSE.txt"
+    "url": "/dci-portfolio-app/static/js/2.bc94c4e5.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "c00bd81bae4584349087",
-    "url": "/dci-portfolio-app/static/js/main.0aaee646.chunk.js"
+    "revision": "133dc58e40349a51dda5",
+    "url": "/dci-portfolio-app/static/js/main.f6cd6a6a.chunk.js"
   },
   {
     "revision": "a8284e03309169d69e82",
